@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ # -*- ENCODING: UTF-8 -*-
+
+ echo "Iniciando el servidor de websocket"
+
+ php -q socket/server.php
+
+ exit
